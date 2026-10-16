@@ -1,0 +1,2 @@
+flask
+# python-escpos   # aktifkan baris ini kalau sudah pasang printer thermal fisik
