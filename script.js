@@ -6,9 +6,9 @@
 /* ================== KONFIGURASI (edit di sini) ================== */
 const NAMA_TOKO = "Zahra Laundry";
 const NOMOR_WA_ADMIN = "6287886277532";
-const ALAMAT_TOKO = "Jl. Contoh Alamat No. 1, Dumai"; // TODO: ganti alamat asli
-const JAM_OPERASIONAL = "Setiap hari, 08.00 - 20.00";
-const ESTIMASI = "Estimasi selesai reguler 1x24 jam.";
+const ALAMAT_TOKO = "Jl. Janur Kuning No.85"; // TODO: ganti alamat asli
+const JAM_OPERASIONAL = "Setiap hari, 08.00 - 12.00 & 16.00 - 21.00";
+const ESTIMASI = "Estimasi selesai reguler 2x24 jam.";
 
 // Harga (samakan dengan harga di web kasir)
 const KATEGORI = {
