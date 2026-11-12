@@ -1,0 +1,47 @@
+{
+  "diperbarui": "12/11/2026 17:25",
+  "pesanan": {
+    "ZL-24DC48": {
+      "nama": "elzy",
+      "tanggal": "30/09/2026 19:41",
+      "layanan": "Cuci Setrika 10 kg, Selimut (Single) 1 pcs, Setrika Saja 8 kg",
+      "status": "menunggu"
+    },
+    "ZL-L7N9GT": {
+      "nama": "laila",
+      "tanggal": "30/09/2026 19:59",
+      "layanan": "Cuci Setrika 10 kg, Setrika Saja 8 kg, Selimut (Single) 1 pcs, Bed Cover (Queen) 1 pcs, Set Sprei (Single) 1 set",
+      "status": "menunggu"
+    },
+    "ZL-7AHLUB": {
+      "nama": "l",
+      "tanggal": "30/09/2026 20:42",
+      "layanan": "Cuci Setrika 11 kg",
+      "status": "menunggu"
+    },
+    "ZL-UHJHHD": {
+      "nama": "L",
+      "tanggal": "30/09/2026 20:44",
+      "layanan": "Cuci Setrika 1 kg",
+      "status": "menunggu"
+    },
+    "ZL-NWD7NH": {
+      "nama": "laila",
+      "tanggal": "12/11/2026 11:41",
+      "layanan": "Cuci Setrika 10 kg, Setrika Saja 6 kg",
+      "status": "menunggu"
+    },
+    "ZL-XZRTCT": {
+      "nama": "nayla",
+      "tanggal": "12/11/2026 12:28",
+      "layanan": "Cuci Setrika 10 kg, Setrika Saja 6 kg",
+      "status": "diproses"
+    },
+    "ZL-JHP59M": {
+      "nama": "nayla",
+      "tanggal": "12/11/2026 12:40",
+      "layanan": "Cuci Setrika 10 kg, Bed Cover (Single) 1 pcs, Setrika Saja 4 kg, Set Sprei (King) 1 set",
+      "status": "diproses"
+    }
+  }
+}
