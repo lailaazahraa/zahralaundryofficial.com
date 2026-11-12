@@ -107,6 +107,15 @@
             <div class="price-grid" id="priceGridPaket"></div>
             <p class="price-note">Cocok untuk kos-kosan, keluarga, atau kebutuhan rutin bulanan.</p>
         </div>
+
+        <div class="form-container calc-card">
+            <h3 class="subtitle" style="margin-top:0">Kalkulator Estimasi Biaya</h3>
+            <p class="page-lead" style="text-align:left; margin-bottom:1rem">Pilih layanan dan jumlahnya untuk melihat perkiraan biaya. Harga final dihitung kasir saat cucian ditimbang.</p>
+            <div id="calcRows"></div>
+            <button type="button" class="btn-secondary" onclick="tambahBarisKalkulator()">+ Tambah Layanan</button>
+            <div class="total-box"><p>Estimasi Total: <span id="calcTotal">Rp 0</span></p></div>
+            <button type="button" class="btn-submit" onclick="pesanDariKalkulator()">Tanya / Pesan via WhatsApp</button>
+        </div>
     </section>
 
     <section id="bantuan" class="page">
@@ -133,6 +142,21 @@
                 <div class="testimonial-grid" id="testimonialGrid"></div>
             </div>
         </div>
+
+        <h3 class="subtitle center" style="margin-top:2.5rem">Pertanyaan yang Sering Diajukan</h3>
+        <div class="faq" id="faqList"></div>
+
+        <div class="form-container" style="margin-top:2rem">
+            <h3 class="subtitle" style="margin-top:0">Kirim Pesan ke Admin</h3>
+            <div class="input-group"><label>Nama</label><input type="text" id="pesanNama" placeholder="Nama kamu"></div>
+            <div class="input-group"><label>Topik</label>
+                <select id="pesanTopik">
+                    <option>Tanya harga</option><option>Tanya status pesanan</option>
+                    <option>Tanya layanan satuan (selimut/bed cover/sprei)</option><option>Lainnya</option>
+                </select></div>
+            <div class="input-group"><label>Pesan</label><input type="text" id="pesanIsi" placeholder="Tulis pertanyaanmu"></div>
+            <button type="button" class="btn-submit" onclick="kirimPesanAdmin()">Kirim via WhatsApp</button>
+        </div>
     </section>
 
     <section id="lacak" class="page">
@@ -146,6 +170,7 @@
                 </div>
                 <button type="submit" class="btn-submit">Lacak Pesanan</button>
             </form>
+            <div id="riwayatLacak" class="chip-row"></div>
             <div id="hasilLacak"></div>
         </div>
     </section>
@@ -178,16 +203,23 @@
 
 <button class="fab-chat" onclick="toggleChat()" aria-label="Tanya asisten">Tanya Asisten</button>
 <div class="chat-box" id="chatBox">
-    <div class="chat-head"><strong>Asisten Zahra Laundry</strong><button onclick="toggleChat()" aria-label="Tutup">&times;</button></div>
+    <div class="chat-head"><div><strong>Asisten Zahra Laundry</strong><small id="chatMode"></small></div><button onclick="toggleChat()" aria-label="Tutup">&times;</button></div>
+    <div class="chat-chips">
+        <button onclick="kirimCepat('Berapa harga cuci setrika?')">Harga</button>
+        <button onclick="kirimCepat('Jam buka dan alamat?')">Jam &amp; alamat</button>
+        <button onclick="kirimCepat('Berapa lama cucian selesai?')">Estimasi</button>
+        <button onclick="kirimCepat('Bagaimana cara cek status pesanan?')">Cek status</button>
+    </div>
     <div class="chat-body" id="chatBody"></div>
     <form class="chat-form" onsubmit="kirimChat(event)">
-        <input type="text" id="chatInput" placeholder="Tanya harga, jam buka, atau kode pesanan" autocomplete="off">
+        <input type="text" id="chatInput" placeholder="Tanya apa saja, atau kirim kode ZL-XXXXXX" autocomplete="off">
         <button type="submit" class="btn-primary">Kirim</button>
     </form>
 </div>
 
 <div id="toast" class="toast"></div>
 
+<script src="config.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
