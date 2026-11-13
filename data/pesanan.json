@@ -1,5 +1,5 @@
 {
-  "diperbarui": "13/11/2026 11:39",
+  "diperbarui": "13/11/2026 12:46",
   "pesanan": {
     "ZL-24DC48": {
       "nama": "elzy",
@@ -48,6 +48,12 @@
       "tanggal": "13/11/2026 11:24",
       "layanan": "Cuci Setrika 11 kg, Setrika Saja 7 kg, Selimut (Single) 1 pcs",
       "status": "dipacking"
+    },
+    "ZL-PFN56C": {
+      "nama": "arian",
+      "tanggal": "13/11/2026 12:42",
+      "layanan": "Cuci Setrika 10 kg, Setrika Saja 5 kg, Selimut (Single) 1 pcs",
+      "status": "menunggu"
     }
   }
 }
