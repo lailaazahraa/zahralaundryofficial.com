@@ -1,5 +1,5 @@
 {
-  "diperbarui": "13/11/2026 15:01",
+  "diperbarui": "13/11/2026 15:02",
   "pesanan": {
     "ZL-24DC48": {
       "nama": "elzy",
@@ -53,12 +53,6 @@
       "nama": "arian",
       "tanggal": "13/11/2026 12:42",
       "layanan": "Cuci Setrika 10 kg, Setrika Saja 5 kg, Selimut (Single) 1 pcs",
-      "status": "menunggu"
-    },
-    "ZL-KTEAPF": {
-      "nama": "adrian",
-      "tanggal": "13/11/2026 15:01",
-      "layanan": "Set Sprei (King) 1 set, Cuci Setrika 1 kg",
       "status": "menunggu"
     }
   }
