@@ -1,5 +1,5 @@
 {
-  "diperbarui": "12/11/2026 18:04",
+  "diperbarui": "13/11/2026 11:24",
   "pesanan": {
     "ZL-24DC48": {
       "nama": "elzy",
@@ -42,6 +42,12 @@
       "tanggal": "12/11/2026 12:40",
       "layanan": "Cuci Setrika 10 kg, Bed Cover (Single) 1 pcs, Setrika Saja 4 kg, Set Sprei (King) 1 set",
       "status": "dipacking"
+    },
+    "ZL-Z5HEW5": {
+      "nama": "andrea",
+      "tanggal": "13/11/2026 11:24",
+      "layanan": "Cuci Setrika 11 kg, Setrika Saja 7 kg, Selimut (Single) 1 pcs",
+      "status": "menunggu"
     }
   }
 }
